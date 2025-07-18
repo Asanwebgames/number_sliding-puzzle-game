@@ -1,0 +1,149 @@
+
+
+body{
+    background: url("image/bground.jpg") no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+
+}
+
+#Status{
+
+    background-color: rgb(76, 56, 160);
+    font-size: 350%;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(0, 0, 200,10);
+
+
+
+}
+#container{
+    background-image: url("image/board.png") ;
+    background-size: cover;
+       
+    height: 1070px;
+    margin: auto;
+    width: 1050px;
+    /* height: 1050px; */
+    position: relative;
+    
+}
+#board{
+    
+    /* border-radius: 10px; */
+    display: grid;
+    
+    background: none;
+     width: auto;
+    height: auto; 
+    grid-template-columns: 226px 226px 226px 226px ;
+    grid-template-rows: 228px 228px 228px 228px;
+    gap: 1px;
+    padding: 100px 100px ;
+    text-align: center;
+    position: relative;
+    left: -16px;
+    top: -14px;
+    
+    
+
+}
+
+button{
+    background: none;
+    background-position-y: -9px;   
+    background-position-x: -12px; 
+    background-size: 270px 260px;
+    
+    box-shadow: 0 30px 60px rgb(0, 0, 0,5);
+    position: relative;
+}
+
+button:hover{
+    box-shadow: 0 10px 30px rgb(0, 0, 0,5);
+    transform: scale(.95);
+}
+
+#b1{
+    
+    background-image: url("image/1.png") ;  
+    
+}
+
+
+
+#b2{
+   
+    background-image: url("image/2.png") ;   
+   
+}
+#b3{
+   
+    background-image: url("image/3.png") ;   
+   
+}
+#b4{
+   
+    background-image: url("image/4.png") ;   
+    
+}
+#b5{
+   
+    background-image: url("image/5.png") ;   
+   
+}
+#b6{
+   
+    background-image: url("image/6.png") ;   
+   
+}
+#b7{
+   
+    background-image: url("image/7.png") ;   
+   
+}
+
+#b8{
+   
+    background-image: url("image/8.png") ;   
+   
+}
+#b9{
+   
+    background-image: url("image/9.png") ;   
+   
+}
+#b10{
+   
+    background-image: url("image/10.png") ;   
+   
+}
+#b11{
+   
+    background-image: url("image/11.png") ;   
+   
+}
+#b12{
+    
+   
+    background-image: url("image/12.png") ;   
+   
+}
+#b13{
+   
+    background-image: url("image/13.png") ;   
+   
+}
+#b14{
+   
+    background-image: url("image/14.png") ;   
+   
+}
+#b15{
+    
+    background-image: url("image/15.png") ;   
+    
+}
